@@ -9,7 +9,7 @@ requirejs.config({
 });
 
 
-define(['jquery', 'underscore', 'backbone', 'backbone.marionette'],
+define(['jquery', 'underscore', 'backbone', 'backbone.marionette', 'foundation'],
         function ($, _, Backbone, Marionette) {
-      console.log('JS loaded');
+    $('body').foundation();
 });
